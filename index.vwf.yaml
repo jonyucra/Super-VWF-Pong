@@ -43,7 +43,7 @@ children:
       ballMaterial:
         extends: http://vwf.example.com/material.vwf
         properties:
-          color: "#0000ff"   
+          color: "#4d5359"   
     scripts:
     - |
       this.move = function() {
@@ -94,7 +94,7 @@ children:
   light:
     extends: http://vwf.example.com/light.vwf
     properties:
-      distance: 2000
+      distance: 4000
       translation: [ 400, -400, 900 ]
 methods:
   update:
